@@ -9,6 +9,14 @@
     /* width:100%; */
     background-size: cover;
     background-position: center;
+    
+  }
+  @media (max-width:600px)
+  {
+    body{
+      background-repeat: no-repeat;
+      background-size: auto;
+    }
   }
   
   .level
@@ -21,9 +29,14 @@
     margin-top: 7rem;
     /* margin-bottom: 40%; */
     font-weight: 800;
-    
-   
-  }
+   }
+   @media (max-width:600px)
+   {
+    .level{
+      margin-left: 7rem;
+      margin-top: 11rem;
+    }
+   }
   .level1{
      text-decoration: none;
      padding: 5% 0 5% 0;
